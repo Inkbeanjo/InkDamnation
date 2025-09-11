@@ -11,14 +11,14 @@
 - type: pointOfInterest
   id: Sleo
   parent: BasePOI
-  name: 'SLE Outpost'
+  name: 'Ranger Station' # Den
   minimumDistance: 750
   maximumDistance: 1000
   spawnGroup: Required
   gridPath: /Maps/_AS/POI/sle_outpost.yml
   addComponents:
   - type: IFF
-    color: "#6690cc"
+    color: "#ae7d57"
   - type: ProtectedGrid
     preventEmpEvents: true
   - type: StationTransit
@@ -27,7 +27,7 @@
 
 - type: gameMap
   id: Sleo
-  mapName: 'SLE Outpost'
+  mapName: 'Ranger Station' # Den
   mapPath: /Maps/_AS/POI/sle_outpost.yml
   minPlayers: 0
   stations:
@@ -35,7 +35,7 @@
       stationProto: SecurityFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'SLE Outpost'
+          mapNameTemplate: 'Ranger Station' # Den
         - type: ExtraStationInformation
           iconPath: /Textures/_NF/Structures/Decoration/banner.rsi/nfsd-banner.png
           stationSubtext: 'aurora-lobby-sle-subtext'
