@@ -134,6 +134,39 @@ public sealed class PointOfInterestSystem : EntitySystem
         }
     }
 
+    public void GenerateMercHubs(MapId mapUid, List<PointOfInterestPrototype> mercHubPrototypes, out List<EntityUid> mercHubStations)
+    {
+        // Functionally these follow the same logic as Market Stations
+
+        mercHubStations = new List<EntityUid>();
+        var mercHubcount = _cfg.GetCVar(NFCCVars.MercHubStations);
+        _random.Shuffle(mercHubPrototypes);
+        int hubsAdded = 0;
+
+        if (_ticker.CurrentPreset is null)
+            return;
+        var currentPreset = _ticker.CurrentPreset.ID;
+
+        foreach (var proto in mercHubPrototypes)
+        {
+            // Safety check: ensure selected POIs are either fine in any preset or accepts this current one.
+            if (proto.SpawnGamePreset.Length > 0 && !proto.SpawnGamePreset.Contains(currentPreset))
+                continue;
+
+            if (hubsAdded >= mercHubcount)
+                break;
+
+            var offset = GetRandomPOICoord(proto.MinimumDistance, proto.MaximumDistance, proto.MinimumClearance);
+
+            if (TrySpawnPoiGrid(mapUid, proto, offset, out var marketUid) && marketUid is { Valid: true } market)
+            {
+                mercHubStations.Add(market);
+                hubsAdded++;
+                AddStationCoordsToSet(offset, proto.MinimumClearance);
+            }
+        }
+    }
+
     public void GenerateOptionals(MapId mapUid, List<PointOfInterestPrototype> optionalPrototypes, out List<EntityUid> optionalStations)
     {
         //Stations that do not have a defined grouping in their prototype get a default of "Optional" and get put into the
