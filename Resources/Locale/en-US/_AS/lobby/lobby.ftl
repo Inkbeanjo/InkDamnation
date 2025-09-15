@@ -9,9 +9,9 @@ aurora-lobby-alley-description = This is a place to acquire equipment and make d
    - Purchase expedition-ready ships
    - Socialize with other mercenaries or even shady characters - or not.
 
-aurora-lobby-sle-subtext = The center of operations for the Sector Law Enforcement.
-aurora-lobby-sle-description = The USF Outpost is the center of operations for the sector's ranger department. Here you can:
-   - Join the NFSD
+aurora-lobby-sle-subtext = The center of operations for the Sector Ranger Enforcement.
+aurora-lobby-sle-description = The Ranger Outpost is the center of operations for the sector's ranger department. Here you can:
+   - Join the Ranger
    - Apply for a various licenses
    - Do contraband trade-ins or registrations
    - Report crimes

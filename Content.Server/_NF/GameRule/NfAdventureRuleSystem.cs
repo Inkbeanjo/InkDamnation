@@ -214,6 +214,7 @@ public sealed class NFAdventureRuleSystem : GameRuleSystem<NFAdventureRuleCompon
         List<PointOfInterestPrototype> marketProtos = new();
         List<PointOfInterestPrototype> requiredProtos = new();
         List<PointOfInterestPrototype> optionalProtos = new();
+        List<PointOfInterestPrototype> mercHubsProtos = new();
         Dictionary<string, List<PointOfInterestPrototype>> remainingUniqueProtosBySpawnGroup = new();
 
         var currentPreset = _ticker.CurrentPreset?.ID ?? _fallbackPresetID;
@@ -224,23 +225,41 @@ public sealed class NFAdventureRuleSystem : GameRuleSystem<NFAdventureRuleCompon
             if (location.SpawnGamePreset.Length > 0 && !location.SpawnGamePreset.Contains(currentPreset))
                 continue;
 
-            if (location.SpawnGroup == "CargoDepot")
-                depotProtos.Add(location);
-            else if (location.SpawnGroup == "MarketStation")
-                marketProtos.Add(location);
-            else if (location.SpawnGroup == "Required")
-                requiredProtos.Add(location);
-            else if (location.SpawnGroup == "Optional")
-                optionalProtos.Add(location);
-            else // the remainder are done on a per-poi-per-group basis
+            switch (location.SpawnGroup)
             {
-                if (!remainingUniqueProtosBySpawnGroup.ContainsKey(location.SpawnGroup))
-                    remainingUniqueProtosBySpawnGroup[location.SpawnGroup] = new();
-                remainingUniqueProtosBySpawnGroup[location.SpawnGroup].Add(location);
+                case "CargoDepot":
+                    depotProtos.Add(location);
+                    break;
+
+                case "MarketStation":
+                    marketProtos.Add(location);
+                    break;
+
+                case "MercHubs":
+                    mercHubsProtos.Add(location);
+                    break;
+
+                case "Required":
+                    requiredProtos.Add(location);
+                    break;
+
+                case "Optional":
+                    optionalProtos.Add(location);
+                    break;
+
+                default:
+                    if (!remainingUniqueProtosBySpawnGroup.ContainsKey(location.SpawnGroup))
+                    {
+                        remainingUniqueProtosBySpawnGroup[location.SpawnGroup] = new();
+                    }
+                    remainingUniqueProtosBySpawnGroup[location.SpawnGroup].Add(location);
+                    break;
             }
         }
+
         _poi.GenerateDepots(mapUid, depotProtos, out component.CargoDepots);
         _poi.GenerateMarkets(mapUid, marketProtos, out component.MarketStations);
+        _poi.GenerateMercHubs(mapUid, mercHubsProtos, out component.MercHubPois);
         _poi.GenerateRequireds(mapUid, requiredProtos, out component.RequiredPois);
         _poi.GenerateOptionals(mapUid, optionalProtos, out component.OptionalPois);
         _poi.GenerateUniques(mapUid, remainingUniqueProtosBySpawnGroup, out component.UniquePois);

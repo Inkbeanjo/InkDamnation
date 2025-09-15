@@ -65,6 +65,9 @@ public sealed class NFCCVars
     public static readonly CVarDef<int> MarketStations =
         CVarDef.Create("nf14.worldgen.market_stations", 1, CVar.SERVERONLY);
 
+    public static readonly CVarDef<int> MercHubStations =
+        CVarDef.Create("nf14.worldgen.merchub_stations", 1, CVar.SERVERONLY);
+
     /// <summary>
     /// The number of Cargo Depots to spawn in every round
     /// </summary>
