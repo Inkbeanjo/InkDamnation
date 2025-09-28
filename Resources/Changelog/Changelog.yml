@@ -4368,3 +4368,124 @@ Entries:
   id: 8636
   time: '2025-09-14T16:13:09.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/472
+- author: Shaman
+  changes:
+    - type: Add
+      message: Added high-vis tape to body bags
+  id: 8637
+  time: '2025-09-14T20:33:43.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/476
+- author: assignedgod
+  changes:
+    - type: Fix
+      message: 'Added west thrusters to the panacea and fixed the doors to the lobby '
+  id: 8638
+  time: '2025-09-15T21:50:00.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/478
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: 'Increased the chem buffer on the industrial grinder '
+  id: 8639
+  time: '2025-09-15T21:50:33.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/479
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Increased the stack size of "sheet" materials.
+  id: 8640
+  time: '2025-09-17T14:17:56.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/482
+- author: Zenixic
+  changes:
+    - type: Add
+      message: Added BH Heartbeat into medical shipyard
+  id: 8641
+  time: '2025-09-17T14:19:52.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/475
+- author: Zenixic
+  changes:
+    - type: Tweak
+      message: Tweaked wires on the BH Scorpion
+  id: 8642
+  time: '2025-09-17T14:20:02.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/481
+- author: Vandanna
+  changes:
+    - type: Add
+      message: SLE Uplink Vend
+    - type: Tweak
+      message: Lock MercVend to Mercenary Access
+    - type: Tweak
+      message: Change SLE SOP url
+    - type: Add
+      message: bulletproof vest to Commissioner loadout
+  id: 8643
+  time: '2025-09-18T19:49:42.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/488
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Material silos can now be accessed by grid instead of by range.
+  id: 8644
+  time: '2025-09-19T02:32:25.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/492
+- author: Zenixic
+  changes:
+    - type: Tweak
+      message: Ported harpy variant of the experimental salvager suit
+  id: 8645
+  time: '2025-09-21T17:20:12.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/495
+- author: Zenixic
+  changes:
+    - type: Tweak
+      message: Linked engi bay doors on the BH Heartbeat to the button next to them
+  id: 8646
+  time: '2025-09-21T17:23:07.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/489
+- author: BudaLope
+  changes:
+    - type: Tweak
+      message: Wallets now have magnet pickup
+  id: 8647
+  time: '2025-09-24T16:53:10.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/477
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: >-
+        Increased the size of material that fits inside portable generators to
+        120
+  id: 8648
+  time: '2025-09-24T23:47:04.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/500
+- author: BudaLope
+  changes:
+    - type: Tweak
+      message: Vulpkanin point markings now under arm/leg category
+    - type: Tweak
+      message: double-barrel and sawn off sizes reduced, sawn off goes in pockets
+    - type: Tweak
+      message: cardboard boxes can no longer go into trash bags
+    - type: Tweak
+      message: 'tajaran can now be a wider selection of colors '
+    - type: Tweak
+      message: tajaran should now heat up and cool down faster
+  id: 8649
+  time: '2025-09-25T21:37:04.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/502
+- author: Vandanna
+  changes:
+    - type: Tweak
+      message: remove alt playtime allowances for skipping Rookie time as SLE
+  id: 8650
+  time: '2025-09-27T03:26:22.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/515
+- author: assignedgod
+  changes:
+    - type: Remove
+      message: Removed the temperature gun
+  id: 8651
+  time: '2025-09-27T14:38:28.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/508

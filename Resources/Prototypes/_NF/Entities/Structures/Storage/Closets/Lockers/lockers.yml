@@ -139,6 +139,18 @@
     stateDoorOpen: nfsd_silver_open
     stateDoorClosed: nfsd_silver_door
 
+# SLE Detective - Added by Aurora's Song prior to full SLE refactor
+- type: entity
+  id: LockerNfsdDetective
+  parent: [NFLockerBaseSecure, LockerSecurity]
+  name: SLE locker
+  suffix: Detective
+  components:
+  - type: EntityStorageVisuals
+    stateBaseClosed: nfsd_silver
+    stateDoorOpen: nfsd_silver_open
+    stateDoorClosed: nfsd_detective_silver_door
+
 # NFSD Brigmedic
 - type: entity
   id: LockerNfsdBrigmedic
