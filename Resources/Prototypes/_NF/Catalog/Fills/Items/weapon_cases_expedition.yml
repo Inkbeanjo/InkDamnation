@@ -534,7 +534,7 @@
     contents:
     - id: NFWeaponRifleRepeaterExpedition
       amount: 1
-    - id: NFBaseAmmunitionBoxPistol45 # Back to .45 for the Repeater | Aurora Song
+    - id: NFAmmunitionBoxPistol45  # Back to .45 for the Repeater | Aurora Song
       amount: 2
 
 - type: entity
