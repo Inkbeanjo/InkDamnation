@@ -4645,12 +4645,6 @@ Entries:
     type: Tweak
   id: 8821
   time: '2025-07-31T04:08:05.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37701
-    - type: Fix
-      message: additional MIDI soundfont changes from WizDen
-  id: 8687
-  time: '2025-11-03T17:59:35.0000000+00:00'
-  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/564
 - author: Vandanna
   changes:
     - type: Fix
