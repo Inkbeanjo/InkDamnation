@@ -289,11 +289,6 @@
     rechargeCooldown: 1.5
     rechargeSound:
       path: /Audio/_NF/Effects/silence.ogg
-  - type: Advertise
-    pack: mimehumanoidchatter
-    minimumWait: 30
-    maximumWait: 120
-    nextAdvertisementTime: 10
   - type: MobThresholds
     thresholds:
       0: Alive
