@@ -52,6 +52,8 @@ public sealed class SharedMagbootsSystem : EntitySystem
         if (TryComp<MovedByPressureComponent>(user, out var moved))
             moved.Enabled = !state;
 
+        // Ensure the wearer can participate in gravity calculations
+        EnsureComp<GravityAffectedComponent>(user);
         _gravity.RefreshWeightless(user);
 
         if (state)
