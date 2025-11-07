@@ -1,5 +1,5 @@
 using Content.Server.Chat.Systems;
-using Content.Server.VoiceMask;
+using Content.Server.Speech.Components;
 using Content.Shared.DeltaV.AACTablet;
 using Content.Shared.IdentityManagement;
 using Robust.Shared.Prototypes;
