@@ -4818,3 +4818,10 @@ Entries:
   id: 8828
   time: '2025-11-07T08:34:34.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/577
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: improper cargo listing (gun)
+  id: 8829
+  time: '2025-11-07T08:38:13.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/583
