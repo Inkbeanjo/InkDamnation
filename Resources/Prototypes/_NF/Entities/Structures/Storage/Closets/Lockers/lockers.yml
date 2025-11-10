@@ -108,32 +108,7 @@
 - type: entity
   id: LockerNfsdEvidence
   parent: [NFLockerBaseSecure, LockerSecurity]
-  name: SLE locker # Aurora - Changed from "evidence locker" to "SLE locker" to match other SLE lockers, added suffix "evidence"
-  suffix: Evidence
-  components:
-  - type: EntityStorageVisuals
-    stateBaseClosed: nfsd
-    stateDoorOpen: nfsd_open
-    stateDoorClosed: nfsd_evidence_door # Aurora - Changed from nfsd_door to nfsd_evidence_door to match new sprite
-
-# SLE - Blank - Added by Aurora's Song prior to full SLE refactor
-- type: entity
-  id: LockerNfsdBlank
-  parent: [NFLockerBaseSecure, LockerSecurity]
-  name: SLE locker
-  suffix: Blank
-  components:
-  - type: EntityStorageVisuals
-    stateBaseClosed: nfsd
-    stateDoorOpen: nfsd_open
-    stateDoorClosed: nfsd_door_blank
-
-# SLE - Badge - Added by Aurora's Song prior to full SLE refactor
-- type: entity
-  id: LockerNfsdBadge
-  parent: [NFLockerBaseSecure, LockerSecurity]
-  name: SLE locker
-  suffix: Badge
+  name: NFSD evidence locker
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: nfsd
@@ -144,7 +119,7 @@
 - type: entity
   id: LockerNfsdCopper
   parent: [NFLockerBaseSecure, LockerSecurity]
-  name: SLE locker
+  name: NFSD locker
   suffix: Copper
   components:
   - type: EntityStorageVisuals
@@ -156,7 +131,7 @@
 - type: entity
   id: LockerNfsdSilver
   parent: [NFLockerBaseSecure, LockerSecurity]
-  name: SLE locker
+  name: NFSD locker
   suffix: Silver
   components:
   - type: EntityStorageVisuals
@@ -180,7 +155,7 @@
 - type: entity
   id: LockerNfsdBrigmedic
   parent: NFLockerBaseSecure
-  name: SLE locker
+  name: NFSD locker
   suffix: Brigmedic
   components:
   - type: EntityStorageVisuals
@@ -194,7 +169,7 @@
 - type: entity
   id: LockerNfsdSergeant
   parent: NFLockerBaseSecure
-  name: SLE locker
+  name: NFSD locker
   suffix: Sergeant
   components:
   - type: EntityStorageVisuals
@@ -208,7 +183,7 @@
 - type: entity
   id: LockerNfsdBailiff
   parent: LockerNfsdSergeant
-  name: SLE locker
+  name: NFSD locker
   suffix: Bailiff
   components:
   - type: AccessReader
@@ -217,8 +192,8 @@
 # NFSD Sheriff
 - type: entity
   id: LockerNfsdSheriff
-  parent: [BaseStructureIndestructible, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag, NFLockerBaseSecure, LockerHeadOfSecurity] # Aurora - Made indestructible and immune to emag, due to new effort to enforce not robbing offline roles.
-  name: SLE locker
+  parent: [NFLockerBaseSecure, LockerHeadOfSecurity]
+  name: NFSD locker
   suffix: Sheriff
   components:
   - type: EntityStorageVisuals

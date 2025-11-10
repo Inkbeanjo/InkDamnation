@@ -14,7 +14,7 @@
   name: 'The Alley'
   minimumDistance: 1650
   maximumDistance: 3400
-  spawnGroup: Required
+  spawnGroup: MercHubs
   gridPath: /Maps/_AS/POI/the_alley.yml
   addComponents:
   - type: IFF
