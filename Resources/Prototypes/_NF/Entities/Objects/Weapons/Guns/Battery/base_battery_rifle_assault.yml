@@ -101,6 +101,24 @@
       fireCost: 80
 
 - type: entity
+  id: NFBaseWeaponEnergyLMGAssaultFireModes
+  abstract: true
+  components:
+  - type: Gun
+    examineCaliber: gun-examine-energybolt-medium
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: NFBulletLaserLMG
+    fireCost: 80
+  - type: BatteryWeaponFireModes
+    fireModes:
+    - proto: NFBulletLaserMedium
+      fireCost: 80
+    - proto: NFBulletDisabler
+      fireCost: 80
+
+- type: entity
   id: NFBaseWeaponEnergyRifleAssaultHitScanPulse
   abstract: true
   components:

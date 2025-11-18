@@ -123,7 +123,7 @@
     maxAngle: 6.2
     angleIncrease: 0.25
     angleDecay: 1
-    fireRate: 4
+    fireRate: 3 #changed
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -142,11 +142,10 @@
     maxAngle: 5.5
     angleIncrease: 0.2
     angleDecay: 0.8
-    fireRate: 4.3
+    fireRate: 3.5 #Damnation, changed
     selectedMode: SemiAuto
     availableModes:
-    - SemiAuto
-    - Burst
+    - SemiAuto #Damnation, removed burst
   - type: ProjectileBatteryAmmoProvider
     proto: ASLasBoltMedium
     fireCost: 50
@@ -183,7 +182,7 @@
 # endregion - battery rifles | Aurora Song
 # region - battery pistols | Aurora Song
 - type: entity
-  name: Basin Las Pistol
+  name: Basin Las Pistol #Las pistol previously with bursts did enough damage in a few seconds to put someone into full death via high-cap power cells; these come with the gun's weapon case spawn, hyper cells on direct hits easily put someone over 400 damage in barely any more time. Changed for balance.
   parent: [ ASWeaponFrameBatteryPistolDualOptics, BaseC1Contraband ]
   suffix: LasPistol
   id: ASWeaponBasinLasPistol
@@ -191,8 +190,7 @@
   components:
   - type: Gun
     availableModes:
-    - SemiAuto
-    - Burst
+    - SemiAuto #Damnation, removed burst
   - type: Sprite
     sprite: _AS/Objects/Weapons/Guns/Pistols/basin.rsi
     layers:
