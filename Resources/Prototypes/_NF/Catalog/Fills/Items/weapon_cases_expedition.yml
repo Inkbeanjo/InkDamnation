@@ -338,7 +338,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: NFWeaponRifleAssaultSmExpedition # Corrected to be using the expedition version of the gun | Aurora Song
+    - id: NFWeaponRifleAssaultSm
       amount: 1
     - id: NFMagazineRifle30
       amount: 2
@@ -496,6 +496,17 @@
 #    contents:
 #    - id: NFWeaponEnergyRifleTemperatureExpedition
 #      amount: 1
+
+- type: entity
+  parent: WeaponCaseHeavy
+  id: WeaponCaseLongEnergyLightMachineGunTurboExpedition
+  suffix: Dungeon, Turbo Laser Mk3
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: NFWeaponEnergyLightMachineGunTurbo
+      amount: 1
 
 #region Sniper
 - type: entity

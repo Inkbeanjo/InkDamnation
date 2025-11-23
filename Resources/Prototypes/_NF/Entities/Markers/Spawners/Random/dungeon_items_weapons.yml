@@ -86,10 +86,11 @@
   - type: RandomSpawner
     prototypes:
     - PlasteelArmingSword
-    - Cutlass
     - Claymore
     - Truncheon
     - WeaponCaseShortEnergyDaggerExpedition
+    - Cutlass 
+    - Rapier #moved to tier 3, lack of broad wideswing makes it slightly more niche use
     chance: 1.0
     offset: 0.0
     rarePrototypes:
@@ -118,7 +119,6 @@
     - Katana
     - CaptainSabre
     - SecBreachingHammer
-    - Rapier
     chance: 1.0
     offset: 0.0
     rarePrototypes:
@@ -180,11 +180,14 @@
     - WeaponCaseLongRepeaterExpedition
     - WeaponCaseLongSniperCeremonialExpedition
     - WeaponCaseShortSvalinnExpedition # Svalinn to T1 | Aurora Song
+    - WeaponCaseLongGestioExpedition # moved to T1, it's a roundstart weapon
+    - WeaponCaseLongWeaponRifleNovaliteC1Expedition # moved to T1, it's a roundstart weapon
+    - WeaponCaseShortLaserGunExpedition #moved to T1, basic/roundstart
     chance: 1.0
     offset: 0.0
     rarePrototypes:
     - SpawnDungeonLootGunT2
-    rareChance: 0.05
+    rareChance: 0.2 #changed
 
 #region guns T2
 - type: entity
@@ -205,24 +208,20 @@
       color: red
   - type: RandomSpawner
     prototypes:
-    - WeaponCaseLongTypewriterExpedition # Typewriter to T2 | Aurora Song
     - WeaponCaseShortPython45Expedition #Python to T2 | Aurora Song
     - WeaponCaseShortViper
     - WeaponCaseShortFitzExpedition
     - WeaponCaseShortWard45Expedition
     - WeaponCaseShortRevolverPirate
-    - WeaponCaseLongGestioExpedition
-    - WeaponCaseLongWeaponRifleNovaliteC1Expedition
     - WeaponCaseLongSVSExpedition
     - WeaponCaseLongKammererExpedition
-    - WeaponCaseShortLaserGunExpedition
-    - WeaponCaseLongMusketExpedition # Musket to T2 | Aurora Song
-    - WeaponCaseLongLaserCarbineExpedition # Laser Carbine to T2 | Aurora Song
+    - WeaponCaseShortBasinExpedition # moved to T2, removed burst, lowered fire rate from 6rps to 3- solid here
+    - WeaponCaseShortAdvancedLaserExpedition
     chance: 1.0
     offset: 0.0
     rarePrototypes:
     - SpawnDungeonLootGunT3
-    rareChance: 0.05
+    rareChance: 0.15 #changed
 
 #region guns T3
 - type: entity
@@ -251,14 +250,16 @@
     - WeaponCaseLongM90Expedition
     - WeaponCaseLongLecterExpedition
     - WeaponCaseLongFalchionExpedition # Aurora Weapon
-    - WeaponCaseShortBasinExpedition # Aurora Weapon
+    - WeaponCaseLongTypewriterExpedition # Typewriter to T3, why would you move this
     - WeaponCaseKasyreExpedition # Aurora Weapon
+    - WeaponCaseLongMusketExpedition # Musket to T3, long live musket
+    - WeaponCaseLongLaserCarbineExpedition # Laser Carbine to T3
     #- WeaponCaseLongHristovExpedition
     chance: 1.0
     offset: 0.0
     rarePrototypes:
     - SpawnDungeonLootGunT4
-    rareChance: 0.05
+    rareChance: 0.1 #changed
 
 #region guns T4
 - type: entity
@@ -285,10 +286,10 @@
     - WeaponCaseLongBulldog
     - WeaponCaseLongEnforcerExpedition
     - WeaponCaseShortAntiqueLaserExpedition
-    - WeaponCaseShortAdvancedLaserExpedition
-    - WeaponCaseLongXrayCannonExpedition
+    #- WeaponCaseLongXrayCannonExpedition, removed since you can fab this
     - WeaponCaseLongHristovExpedition # Hristov to T4, this thing eats walls like candy |Aurora Song
     #- WeaponCaseLongTemperatureGunExpedition | Aurora Song - Too PVP focused, not much PVE use.
+    - WeaponCaseLongEnergyGunExpedition #moved to t4, recharge rate is slow/fire rate is high, gun spawns in dungeon crates
     chance: 1.0
     offset: 0.0
     rarePrototypes:
@@ -318,9 +319,9 @@
     - WeaponCaseLongJackdaw
     - WeaponCaseLongLauncherChinaLake
     - WeaponCaseHeavyLightMachineGunL6
-    - WeaponCaseLongEnergyGunExpedition
     - WeaponCaseLongLaserCannonExpedition
     - WeaponCaseHeavyAsmgtExpeditions
+    - WeaponCaseLongEnergyLightMachineGunTurboExpedition
     chance: 1.0
     offset: 0.0
 

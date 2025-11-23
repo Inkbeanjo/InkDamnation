@@ -248,6 +248,7 @@
   - UplinkWeaponry
 
 #region Explosives
+#region Explosives
 
 - type: listing # Damnation by popular request
   id: UplinkExplosiveGrenade
@@ -637,6 +638,7 @@
           - SurplusBundle
 
 #region Chemicals
+#region Chemicals
 
 - type: listing
   id: UplinkHypopen
@@ -798,6 +800,7 @@
           #- SurplusBundle
 
 #region Deception
+#region Deception
 
 - type: listing
   id: UplinkAgentIDCard
@@ -949,6 +952,7 @@
   categories:
   - UplinkDeception
 
+#region Disruption
 #region Disruption
 
 - type: listing
@@ -1219,6 +1223,7 @@
   - UplinkDisruption
 
 #region Allies
+#region Allies
 
 - type: listing
   id: UplinkHoloparaKit
@@ -1376,6 +1381,7 @@
   - !type:ListingLimitedStockCondition
     stock: 1
 
+#region Implants
 #region Implants
 
 - type: listing
@@ -1575,6 +1581,7 @@
   #- UplinkImplants
 
 
+#region Wearables
 #region Wearables
 
 - type: listing
@@ -1810,6 +1817,7 @@
     - UplinkWearables
 
  #region Pointless
+ #region Pointless
 
 #- type: listing 
   #id: UplinkBarberScissors #Damnation; EXTREMELY common floor loot of wrecks, Vroids, expeds, and even some POIs/multiple maint locker spawns.
@@ -1978,6 +1986,7 @@
   - !type:ListingLimitedStockCondition
     stock: 3
 
+#region Job Specific
 #region Job Specific
 
 #- type: listing #Damnation; Extremely common floor loot find across wrecks/uiv/roids/expeds, 4TC is insane for an item that can't be seeded, clipped, or even sold for SLE credits.

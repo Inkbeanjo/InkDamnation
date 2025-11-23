@@ -1081,6 +1081,9 @@
         damage:
           types:
             Blunt: 5
+      - !type:ModifyBleedAmount
+        amount: -1.5
+        
 
 - type: reagent
   id: Bruizine

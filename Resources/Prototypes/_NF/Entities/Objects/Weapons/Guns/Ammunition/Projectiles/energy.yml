@@ -40,6 +40,17 @@
       types:
         Heat: 16 #Damage Rebalanced | Aurora
 
+- type: entity
+  id: NFBulletLaserLMG
+  parent: NFBaseBulletLaser
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    impactEffect: BulletImpactEffectOrangeDisabler
+    damage:
+      types:
+        Heat: 12 #LMG testing  
+
 # Rifles
 - type: entity
   id: NFBulletLaserHeavy
