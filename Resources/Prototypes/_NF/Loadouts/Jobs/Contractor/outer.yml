@@ -6,6 +6,7 @@
   price: 0
   equipment:
     outerClothing: ClothingOuterEVASuitContractor
+  groupBy: "voidsuit" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterHardsuitVoidParamed
@@ -18,6 +19,7 @@
   price: 1300
   equipment:
     outerClothing: ClothingOuterHardsuitVoidParamed
+  groupBy: "voidsuit" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterHoodieGrey
@@ -54,6 +56,7 @@
   price: 200
   equipment:
     outerClothing: ClothingOuterApronBar
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterApronBotanist
@@ -63,6 +66,7 @@
   price: 200
   equipment:
     outerClothing: ClothingOuterApronBotanist
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterApronChef
@@ -72,6 +76,7 @@
   price: 200
   equipment:
     outerClothing: ClothingOuterApronChef
+  groupBy: "profession outer" #Damnation grouping
 
 #T1
 - type: loadout
@@ -121,6 +126,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterJacketChef
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterHoodieChaplain
@@ -133,6 +139,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterHoodieChaplain
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterNunRobe
@@ -145,6 +152,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterNunRobe
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterCoatLab
@@ -157,6 +165,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterCoatLab
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterCoatLabGene
@@ -169,6 +178,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterCoatLabGene
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterCoatLabChem
@@ -181,6 +191,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterCoatLabChem
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterCoatRobo
@@ -193,6 +204,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterCoatRobo
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterCoatLabViro
@@ -205,6 +217,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterCoatLabViro
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterBioScientist
@@ -217,6 +230,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterBioScientist
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterCoat
@@ -229,6 +243,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterCoat
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterCoatLong
@@ -241,6 +256,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterCoatLong
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterAtmos
@@ -253,6 +269,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterAtmos
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterHydro
@@ -265,6 +282,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterHydro
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterBar
@@ -277,6 +295,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterBar
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterChef
@@ -289,6 +308,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterChef
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterCap
@@ -301,6 +321,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterCap
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterMusician
@@ -313,6 +334,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterMusician
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterCargo
@@ -325,6 +347,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterCargo
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterMiner
@@ -337,6 +360,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterMiner
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterEngi
@@ -349,6 +373,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterEngi
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterMed
@@ -361,6 +386,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterMed
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterChem
@@ -373,6 +399,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterChem
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterCoatParamedicWB
@@ -385,6 +412,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterCoatParamedicWB
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterPara
@@ -397,6 +425,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterPara
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterGen
@@ -409,6 +438,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterGen
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterSci
@@ -421,6 +451,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterSci
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterRobo
@@ -433,6 +464,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterRobo
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterViro
@@ -445,6 +477,7 @@
   price: 800
   equipment:
     outerClothing: ClothingOuterWinterViro
+  groupBy: "profession outer" #Damnation grouping
 
 #T2
 - type: loadout
@@ -458,6 +491,7 @@
   price: 1200
   equipment:
     outerClothing: ClothingOuterWinterClown
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterMime
@@ -470,6 +504,7 @@
   price: 1200
   equipment:
     outerClothing: ClothingOuterWinterMime
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterQM
@@ -482,6 +517,7 @@
   price: 1200
   equipment:
     outerClothing: ClothingOuterWinterQM
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterRD
@@ -494,6 +530,7 @@
   price: 1200
   equipment:
     outerClothing: ClothingOuterWinterRD
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterCMO
@@ -506,6 +543,7 @@
   price: 1200
   equipment:
     outerClothing: ClothingOuterWinterCMO
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterWinterCE
@@ -518,6 +556,7 @@
   price: 1200
   equipment:
     outerClothing: ClothingOuterWinterCE
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterCoatLabCmo
@@ -530,6 +569,7 @@
   price: 1200
   equipment:
     outerClothing: ClothingOuterCoatLabCmo
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterCoatLabSeniorPhysician
@@ -542,6 +582,7 @@
   price: 1200
   equipment:
     outerClothing: ClothingOuterCoatLabSeniorPhysician
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterCoatRD
@@ -554,6 +595,7 @@
   price: 1200
   equipment:
     outerClothing: ClothingOuterCoatRD
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterCoatLabSeniorResearcher
@@ -566,6 +608,7 @@
   price: 1200
   equipment:
     outerClothing: ClothingOuterCoatLabSeniorResearcher
+  groupBy: "profession outer" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingOuterFlannelRed

@@ -4,18 +4,21 @@
   price: 100
   equipment:
     neck: ClothingNeckCollarBlue # ContractorNeck, which adds them to many loadouts - a lot of loadouts either directly use ContractorNeck or include it as a subgroup
+  groupBy: "collar" #Damnation grouping
 
 - type: loadout
   id: FloofClothingCollarBlack # ContractorNeck
   price: 100
   equipment:
     neck: ClothingNeckCollarBlack
+  groupBy: "collar" #Damnation grouping
 
 - type: loadout
   id: FloofClothingCollarPink # ContractorNeck
   price: 100
   equipment:
     neck: ClothingNeckCollarPink
+  groupBy: "collar" #Damnation grouping
 
 #T1
 - type: loadout
@@ -26,6 +29,7 @@
   price: 500
   equipment:
     neck: ClothingNeckCollarEpi
+  groupBy: "collar" #Damnation grouping
 
 - type: loadout
   id: FloofClothingCollarEngi # ContractorNeck
@@ -35,6 +39,7 @@
   price: 500
   equipment:
     neck: ClothingNeckCollarEngi
+  groupBy: "collar" #Damnation grouping
 
 - type: loadout
   id: FloofClothingCollarLogi # ContractorNeck
@@ -44,6 +49,7 @@
   price: 500
   equipment:
     neck: ClothingNeckCollarLogi
+  groupBy: "collar" #Damnation grouping
 
 - type: loadout
   id: FloofClothingShockCollar # ContractorNeck
@@ -53,6 +59,7 @@
   price: 500
   equipment:
     neck: ClothingNeckShockCollar
+  groupBy: "collar" #Damnation grouping
 
 #T2
 
@@ -65,25 +72,29 @@
   price: 2500
   equipment:
     neck: ClothingNeckCollarCmd
+  groupBy: "collar" #Damnation grouping
 
 #Job specific
 - type: loadout
   id: FloofClothingCollarMed # DocNeck TODO: additional integration - BrigmedicNeck?
   equipment:
     neck: ClothingNeckCollarMed
+  groupBy: "collar" #Damnation grouping
 
 - type: loadout
   id: FloofClothingCollarSec # TODO: finish integration - potentially CadetNeck, DeputyNeck, BrigmedicNeck, NFDetectiveNeck, PalNeck(?), BaliffNeck, SeniorOfficerNeck, SheriffNeck?
   equipment:
     neck: ClothingNeckCollarSec
+  groupBy: "collar" #Damnation grouping
 
 - type: loadout
   id: FloofClothingCollarCC # TODO: finish integration - StationRepNeck?
   equipment:
     neck: ClothingNeckCollarCC
+  groupBy: "collar" #Damnation grouping
 
 - type: loadout
   id: FloofClothingCollarSyndi # TODO finish integration - PirateNeck? It's commented out as-is... not sure if it makes sense to go in any other loadouts.
   equipment:
     neck: ClothingNeckCollarSyndi
-
+  groupBy: "collar" #Damnation grouping

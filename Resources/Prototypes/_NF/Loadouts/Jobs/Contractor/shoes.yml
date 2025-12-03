@@ -6,6 +6,7 @@
   price: 0
   equipment:
     shoes: ClothingShoesColorBlack
+  groupBy: "casual shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesClothwrap
@@ -15,6 +16,7 @@
   price: 50
   equipment:
     shoes: ClothingShoesClothwrap
+  groupBy: "casual shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesTourist
@@ -24,6 +26,7 @@
   price: 200
   equipment:
     shoes: ClothingShoesTourist
+  groupBy: "casual shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsSalvage
@@ -33,6 +36,7 @@
   price: 200
   equipment:
     shoes: ClothingShoesBootsSalvage
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesChef
@@ -42,6 +46,7 @@
   price: 200
   equipment:
     shoes: ClothingShoesChef
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesColorBlue
@@ -51,6 +56,7 @@
   price: 200
   equipment:
     shoes: ClothingShoesColorBlue
+  groupBy: "casual shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesColorOrange
@@ -60,6 +66,7 @@
   price: 200
   equipment:
     shoes: ClothingShoesColorOrange
+  groupBy: "casual shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesColorPurple
@@ -69,6 +76,7 @@
   price: 200
   equipment:
     shoes: ClothingShoesColorPurple
+  groupBy: "casual shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesColorRed
@@ -78,6 +86,7 @@
   price: 200
   equipment:
     shoes: ClothingShoesColorRed
+  groupBy: "casual shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesColorBrown
@@ -87,6 +96,7 @@
   price: 200
   equipment:
     shoes: ClothingShoesColorBrown
+  groupBy: "casual shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesColorGreen
@@ -96,6 +106,7 @@
   price: 200
   equipment:
     shoes: ClothingShoesColorGreen
+  groupBy: "casual shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesColorYellow
@@ -105,6 +116,7 @@
   price: 200
   equipment:
     shoes: ClothingShoesColorYellow
+  groupBy: "casual shoes" #Damnation grouping
 #T1
 - type: loadout
   id: ContractorClothingShoesColorWhite
@@ -119,6 +131,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesColorWhite
+  groupBy: "casual shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsMag
@@ -155,6 +168,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesBootsWinterAtmos
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterHydro
@@ -167,6 +181,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesBootsWinterHydro
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterCap
@@ -179,6 +194,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesBootsWinterCap
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterCargo
@@ -191,6 +207,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesBootsWinterCargo
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterChef
@@ -203,6 +220,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesBootsWinterChef
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterChem
@@ -215,6 +233,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesBootsWinterChem
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterEngi
@@ -227,6 +246,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesBootsWinterEngi
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterGenetics
@@ -239,6 +259,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesBootsWinterGenetics
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterMiner
@@ -251,6 +272,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesBootsWinterMiner
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterParamedic
@@ -263,6 +285,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesBootsWinterParamedic
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterRobo
@@ -275,6 +298,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesBootsWinterRobo
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterSci
@@ -287,6 +311,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesBootsWinterSci
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterViro
@@ -299,6 +324,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesBootsWinterViro
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsJack
@@ -311,6 +337,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesBootsJack
+  groupBy: "casual shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesLeather
@@ -323,6 +350,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesLeather
+  groupBy: "casual shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsLaceup
@@ -337,6 +365,7 @@
   price: 600
   equipment:
     shoes: ClothingShoesBootsLaceup
+  groupBy: "casual shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesSlippers
@@ -399,6 +428,7 @@
   price: 1200
   equipment:
     shoes: ClothingShoesDameDane
+  groupBy: "casual shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWork
@@ -495,6 +525,7 @@
   price: 1200
   equipment:
     shoes: ClothingShoesBootsWinterChiefEngineer
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterCMO
@@ -507,6 +538,7 @@
   price: 1200
   equipment:
     shoes: ClothingShoesBootsWinterCMO
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterQM
@@ -519,6 +551,7 @@
   price: 1200
   equipment:
     shoes: ClothingShoesBootsWinterQM
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterRD
@@ -531,6 +564,7 @@
   price: 1200
   equipment:
     shoes: ClothingShoesBootsWinterRD
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterClown
@@ -543,6 +577,7 @@
   price: 1200
   equipment:
     shoes: ClothingShoesBootsWinterClown
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsWinterMime
@@ -555,6 +590,7 @@
   price: 1200
   equipment:
     shoes: ClothingShoesBootsWinterMime
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesClown
@@ -567,6 +603,7 @@
   price: 1200
   equipment:
     shoes: ClothingShoesClown
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesJester
@@ -579,6 +616,7 @@
   price: 1200
   equipment:
     shoes: ClothingShoesJester
+  groupBy: "profession shoes" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingShoesBootsPerformer

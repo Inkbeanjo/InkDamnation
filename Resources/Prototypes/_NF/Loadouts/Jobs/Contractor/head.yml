@@ -6,6 +6,7 @@
   price: 250
   equipment:
     head: ClothingHeadBandBlack
+  groupBy: "bandanna" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadBandBlue
@@ -15,6 +16,7 @@
   price: 250
   equipment:
     head: ClothingHeadBandBlue
+  groupBy: "bandanna" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadBandGreen
@@ -24,6 +26,7 @@
   price: 250
   equipment:
     head: ClothingHeadBandGreen
+  groupBy: "bandanna" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadBandRed
@@ -33,6 +36,7 @@
   price: 250
   equipment:
     head: ClothingHeadBandRed
+  groupBy: "bandanna" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadBandSkull
@@ -42,6 +46,7 @@
   price: 250
   equipment:
     head: ClothingHeadBandSkull
+  groupBy: "bandanna" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatGreysoft
@@ -51,6 +56,7 @@
   price: 250
   equipment:
     head: ClothingHeadHatGreysoft
+  groupBy: "casual hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatBluesoft
@@ -60,6 +66,7 @@
   price: 250
   equipment:
     head: ClothingHeadHatBluesoft
+  groupBy: "casual hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatYellowsoft
@@ -69,6 +76,7 @@
   price: 250
   equipment:
     head: ClothingHeadHatYellowsoft
+  groupBy: "casual hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatGreensoft
@@ -78,6 +86,7 @@
   price: 250
   equipment:
     head: ClothingHeadHatGreensoft
+  groupBy: "casual hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatOrangesoft
@@ -87,6 +96,7 @@
   price: 250
   equipment:
     head: ClothingHeadHatOrangesoft
+  groupBy: "casual hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatRedsoft
@@ -96,6 +106,7 @@
   price: 250
   equipment:
     head: ClothingHeadHatRedsoft
+  groupBy: "casual hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatBlacksoft
@@ -105,6 +116,7 @@
   price: 250
   equipment:
     head: ClothingHeadHatBlacksoft
+  groupBy: "casual hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatPurplesoft
@@ -114,6 +126,7 @@
   price: 250
   equipment:
     head: ClothingHeadHatPurplesoft
+  groupBy: "casual hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatCorpsoft
@@ -123,6 +136,7 @@
   price: 250
   equipment:
     head: ClothingHeadHatCorpsoft
+  groupBy: "casual hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadBandGrey
@@ -132,6 +146,7 @@
   price: 250
   equipment:
     head: ClothingHeadBandGrey
+  groupBy: "bandanna" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatUshanka
@@ -150,6 +165,7 @@
   price: 250
   equipment:
     head: ClothingHeadHatHardhatYellow
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatChef
@@ -159,6 +175,7 @@
   price: 250
   equipment:
     head: ClothingHeadHatChef
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatCargosoft
@@ -168,6 +185,7 @@
   price: 250
   equipment:
     head: ClothingHeadHatCargosoft
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadBandBotany
@@ -177,6 +195,7 @@
   price: 250
   equipment:
     head: ClothingHeadBandBotany
+  groupBy: "bandanna" #Damnation grouping
 
 #T1
 - type: loadout
@@ -190,6 +209,7 @@
   price: 650
   equipment:
     head: ClothingHeadHatHoodBioScientist
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadRastaHat
@@ -226,6 +246,7 @@
   price: 650
   equipment:
     head: ClothingHeadFishCap
+  groupBy: "casual hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatTrucker
@@ -238,6 +259,7 @@
   price: 650
   equipment:
     head: ClothingHeadHatTrucker
+  groupBy: "casual hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatCasa
@@ -274,6 +296,7 @@
   price: 650
   equipment:
     head: ClothingHeadHatGreyFlatcap
+  groupBy: "casual hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatBrownFlatcap
@@ -286,6 +309,7 @@
   price: 650
   equipment:
     head: ClothingHeadHatBrownFlatcap
+  groupBy: "casual hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatParamedicsoft
@@ -298,6 +322,7 @@
   price: 650
   equipment:
     head: ClothingHeadHatParamedicsoft
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadNurseHat
@@ -310,6 +335,7 @@
   price: 650
   equipment:
     head: ClothingHeadNurseHat
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatBeretMedic
@@ -322,6 +348,7 @@
   price: 650
   equipment:
     head: ClothingHeadHatBeretMedic
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatSurgcapGreen
@@ -396,6 +423,7 @@
   price: 1250
   equipment:
     head: ClothingHeadHatCaptain
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatCapcap
@@ -408,6 +436,7 @@
   price: 1250
   equipment:
     head: ClothingHeadHatCapcap
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadTinfoil
@@ -432,6 +461,7 @@
   price: 1250
   equipment:
     head: ClothingHeadHatBeretRND
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatBeretEngineering
@@ -444,6 +474,7 @@
   price: 1250
   equipment:
     head: ClothingHeadHatBeretEngineering
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatBeretSeniorPhysician
@@ -456,6 +487,7 @@
   price: 1250
   equipment:
     head: ClothingHeadHatBeretSeniorPhysician
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatBeretCmo
@@ -468,6 +500,7 @@
   price: 1250
   equipment:
     head: ClothingHeadHatBeretCmo
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatBeretQM
@@ -480,6 +513,7 @@
   price: 1250
   equipment:
     head: ClothingHeadHatBeretQM
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatQMsoft
@@ -492,6 +526,7 @@
   price: 1250
   equipment:
     head: ClothingHeadHatQMsoft
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatCardinal
@@ -564,6 +599,7 @@
   price: 1250
   equipment:
     head: ClothingHeadHatBeret
+  groupBy: "casual hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatBeretFrench
@@ -576,6 +612,7 @@
   price: 1250
   equipment:
     head: ClothingHeadHatBeretFrench
+  groupBy: "casual hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatMimesoft
@@ -588,6 +625,7 @@
   price: 1250
   equipment:
     head: ClothingHeadHatMimesoft
+  groupBy: "profession hat" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingHeadHatPilgrim
