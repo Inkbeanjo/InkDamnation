@@ -1,0 +1,27 @@
+- type: loadout
+  id: ContractorClothingUniformJumpsuitSwimming
+  price: 500 #honestly drip shouldn't cost a ton in chargen
+  equipment:
+    jumpsuit: ClothingUniformSuitSwimming
+  groupBy: "casual suit"
+  
+- type: loadout
+  id: ContractorClothingUniformJumpsuitBrat
+  price: 500 
+  equipment:
+    jumpsuit: ClothingUniformSuitBrat
+  groupBy: "casual suit"
+
+- type: loadout
+  id: ContractorClothingUniformJumpskirtWhiteTurtleneck
+  price: 500 
+  equipment:
+    jumpsuit: ClothingUniformSkirtWhiteTurtleneck
+  groupBy: "casual skirt"
+
+- type: loadout
+  id: ContractorClothingUniformJumpskirtShortDress
+  price: 500 
+  equipment:
+    jumpsuit: ClothingUniformSkirtShortDress
+  groupBy: "dresses"

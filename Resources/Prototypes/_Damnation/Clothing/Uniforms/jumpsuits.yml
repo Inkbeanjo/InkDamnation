@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformSuitSwimming
+  name: one-piece swimsuit
+  description: A tight fitted singlet made of hydrophobic microweave. For pool days, or paired with an oversized jacket.
+  components:
+  - type: Sprite
+    sprite: _Damnation/Clothing/Uniforms/Jumpsuit/swimsuit.rsi
+  - type: Clothing
+    sprite: _Damnation/Clothing/Uniforms/Jumpsuit/swimsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformSuitBrat
+  name: military brat's cargo pants
+  description: For the ones who've done horrible things and looked cute doing them.
+  components:
+  - type: Sprite
+    sprite: _Damnation/Clothing/Uniforms/Jumpsuit/militarybrat.rsi
+  - type: Clothing
+    sprite: _Damnation/Clothing/Uniforms/Jumpsuit/militarybrat.rsi
