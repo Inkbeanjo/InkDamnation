@@ -308,7 +308,7 @@
   abstract: true
   components:
   - type: Stamina
-    critThreshold: 0
+    critThreshold: 100 #Damnation; prevent permastun of fodder-classified mobs, equivalent thresh to player health.
 
 - type: entity
   id: MobStaminaSpecial
