@@ -107,6 +107,7 @@
   - ContractorClothingUniformJumpskirtLawyerBlack
   - ContractorClothingUniformJumpsuitLawyerGood
   - ContractorClothingUniformJumpskirtLawyerGood
+  - ContractorClothingUniformJumpsuitBrat #Damnation, Den port
   - ContractorClothingUniformRandomPunkCroptop # Punkish (Randomized visuals)
   - ContractorClothingUniformRandomPunkTanktop # Punkish (Randomized visuals)
   - ContractorClothingUniformRandomPunkCroptopShorts # Punkish (Randomized visuals)
@@ -118,11 +119,13 @@
   - ContractorClothingUniformRandomStandard
   - ContractorClothingUniformRandomShorts
   - ContractorClothingUniformRandomShirt
+  - ContractorClothingUniformJumpsuitSwimming #Damnation, Den port
   - ContractorClothingSkirtUniformRandomArmless
   - ContractorClothingSkirtUniformRandomStandard
   - ContractorClothingSkirtUniformRandomBra
   - ContractorClothingSkirtUniformRandomShorts
   - ContractorClothingSkirtUniformRandomShirt
+  - ContractorClothingUniformJumpskirtWhiteTurtleneck #Damnation, Den port
   - ContractorClothingUniformJumpsuitMonasticRobeDark
   - ContractorClothingUniformJumpsuitMonasticRobeLight
   - ContractorClothingUniformJumpsuitChaplainPilgrimVest
@@ -199,6 +202,7 @@
   - ContractorClothingUniformJumpsuitMilitaryColorPurple
   - ContractorClothingUniformJumpsuitMilitaryColorLightBrown
   - ContractorClothingUniformJumpsuitMilitaryColorBrown
+  - ContractorClothingUniformJumpskirtShortDress #Damnation, Den port
   - ContractorClothingUniformJumpskirtBlackElegantDress
   - ContractorClothingUniformJumpskirtRedElegantDress
   - ContractorClothingUniformJumpskirtGreenElegantDress
@@ -693,6 +697,7 @@
   - ContractorClothingNeckMantleCE
   - ContractorClothingNeckCloakVoid
   - ContractorClothingNeckBling
+  - ContractorClothingNeckCloakHos #Damnation
   # Flooftier collars start
   - FloofClothingCollarBlue
   - FloofClothingCollarBlack
@@ -789,6 +794,8 @@
   - ContractorLighter
   - ContractorFlippoLighter
   - ContractorFlippoEngravedLighter
+  - ContractorASFloodlightBlue #Damnation
+  - ContractorASFloodlightBlue #Damnation
   - ContractorDrinkFlaskOld
   - ContractorDrinkShinyFlask
   - ContractorAACTablet # Aurora Song: AAC Tablet backpack item
@@ -865,6 +872,7 @@
   - ContractorHandheldCrewMonitor
   - ContractorHypoMini
   - ContractorBible
+  - ContractorClownRecorder #Damnation
   - LeashBasic # Floofstation
 
 - type: loadoutGroup

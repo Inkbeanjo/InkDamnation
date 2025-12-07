@@ -565,17 +565,17 @@
   #- UplinkAmmo #Damnation
 
 # For the Python
-- type: listing
-  #abstract: true #Damnation; AP ammo is unique/is an attractive option for revolvers.
-  id: UplinkSpeedLoaderMagnumAP
-  name: uplink-speedloader-magnum-name
-  description: uplink-speedloader-magnu-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
-  productEntity: SpeedLoaderMagnumAP # Frontier
-  cost:
-    Telecrystal: 2 #Damnation 3 > 2
-  categories:
-  - UplinkWeaponry #Damnation; Consolidating tabs/categories
+#- type: listing
+  #abstract: true #Damnation; removing to fix an ubuntu error, god is dead and we have bored them to it
+  #id: UplinkSpeedLoaderMagnumAP
+  #name: uplink-speedloader-magnum-name
+  #description: uplink-speedloader-magnu-desc
+  #icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
+  #productEntity: SpeedLoaderMagnumAP # Frontier
+  #cost:
+    #Telecrystal: 2 #Damnation 3 > 2
+  #categories:
+  #- UplinkWeaponry #Damnation; Consolidating tabs/categories
   #- UplinkAmmo #Damnation
 
 # For the mosin

@@ -6,6 +6,7 @@
   storage:
     back:
     - CigPackBlue
+  groupBy: "smokes" #Damnation grouping
 
 - type: loadout
   id: ContractorCigPackRed
@@ -13,6 +14,7 @@
   storage:
     back:
     - CigPackRed
+  groupBy: "smokes" #Damnation grouping
 
 - type: loadout
   id: ContractorCigPackBlack
@@ -20,6 +22,7 @@
   storage:
     back:
     - CigPackBlack
+  groupBy: "smokes" #Damnation grouping
 
 - type: loadout
   id: ContractorCigPackGreen
@@ -27,6 +30,7 @@
   storage:
     back:
     - CigPackGreen
+  groupBy: "smokes" #Damnation grouping
 
 #T1
 - type: loadout
@@ -38,6 +42,7 @@
   storage:
     back:
     - CigarCase
+  groupBy: "smokes" #Damnation grouping
 
 - type: loadout
   id: ContractorNFAshtray
@@ -48,6 +53,7 @@
   storage:
     back:
     - NFAshtray
+  groupBy: "smokes" #Damnation grouping
 
 - type: loadout
   id: ContractorTapeRecorder
@@ -69,6 +75,7 @@
   storage:
     back:
     - SmokingPipeFilledTobacco
+  groupBy: "smokes" #Damnation grouping
 
 - type: loadout
   id: ContractorTobaccoPouchBrownFilled
@@ -79,6 +86,7 @@
   storage:
     back:
     - TobaccoPouchBrownFilled
+  groupBy: "smokes" #Damnation grouping
 
 - type: loadout
   id: ContractorTobaccoPouchBlueFilled
@@ -89,6 +97,7 @@
   storage:
     back:
     - TobaccoPouchBlueFilled
+  groupBy: "smokes" #Damnation grouping
 
 - type: loadout
   id: ContractorTobaccoPouchRedFilled
@@ -99,6 +108,7 @@
   storage:
     back:
     - TobaccoPouchRedFilled
+  groupBy: "smokes" #Damnation grouping
 
 - type: loadout
   id: ContractorTobaccoPouchPurpleFilled
@@ -109,6 +119,7 @@
   storage:
     back:
     - TobaccoPouchPurpleFilled
+  groupBy: "smokes" #Damnation grouping
 
 - type: loadout
   id: ContractorVape
@@ -119,6 +130,7 @@
   storage:
     back:
     - Vape
+  groupBy: "smokes" #Damnation grouping
 
 #T3 for lols
 - type: loadout
@@ -130,6 +142,7 @@
   storage:
     back:
     - CigarGoldCase
+  groupBy: "smokes" #Damnation grouping
 
 # Lighters:
 #T0
@@ -139,6 +152,7 @@
   storage:
     back:
     - Matchbox
+  groupBy: "lighters" #Damnation grouping
 
 #T1
 - type: loadout
@@ -150,6 +164,7 @@
   storage:
     back:
     - Lighter
+  groupBy: "lighters" #Damnation grouping
 
 #T2
 - type: loadout
@@ -161,6 +176,7 @@
   storage:
     back:
     - FlippoLighter
+  groupBy: "lighters" #Damnation grouping
 
 #T3 for lols
 - type: loadout
@@ -172,6 +188,7 @@
   storage:
     back:
     - FlippoEngravedLighter
+  groupBy: "lighters" #Damnation grouping
 
 # Flasks:
 #T0
@@ -366,6 +383,7 @@
   storage:
     back:
     - PlushieSharkGrey
+  groupBy: "plushie" #Damnation grouping
 
 - type: loadout
   id: ContractorPlushieSharkBlue
@@ -376,6 +394,7 @@
   storage:
     back:
     - PlushieSharkBlue
+  groupBy: "plushie" #Damnation grouping
 
 - type: loadout
   id: ContractorPlushieSharkPink
@@ -386,6 +405,7 @@
   storage:
     back:
     - PlushieSharkPink
+  groupBy: "plushie" #Damnation grouping
 
 - type: loadout
   id: ContractorHarmonicaInstrument
@@ -438,6 +458,7 @@
   storage:
     back:
     - PlushieRGBee
+  groupBy: "plushie" #Damnation grouping
 
 - type: loadout
   id: ContractorMysterySpaceBladeBox
@@ -502,6 +523,7 @@
     back:
     - RubberStampApproved
     - RubberStampDenied
+  groupBy: "stamps" #Damnation grouping
 
 - type: loadout
   id: ContractorRubberStampClown
@@ -509,6 +531,7 @@
   storage:
     back:
     - RubberStampClown
+  groupBy: "stamps" #Damnation grouping
 
 - type: loadout
   id: ContractorRubberStampMime
@@ -516,6 +539,7 @@
   storage:
     back:
     - RubberStampMime
+  groupBy: "stamps" #Damnation grouping
 
 - type: loadout
   id: ContractorRubberStampTrader
@@ -523,6 +547,7 @@
   storage:
     back:
     - RubberStampTrader
+  groupBy: "stamps" #Damnation grouping
 
 - type: loadout
   id: ContractorRubberStampChaplain
@@ -530,6 +555,7 @@
   storage:
     back:
     - RubberStampChaplain
+  groupBy: "stamps" #Damnation grouping
 
 - type: loadout
   id: ContractorRubberStampCaptain
@@ -537,6 +563,7 @@
   storage:
     back:
     - RubberStampCaptain
+  groupBy: "stamps" #Damnation grouping
 
 - type: loadout
   id: ContractorRubberStampLawyer
@@ -544,6 +571,7 @@
   storage:
     back:
     - RubberStampLawyer
+  groupBy: "stamps" #Damnation grouping
 
 - type: loadout
   id: ContractorRubberStampPsychologist
@@ -551,6 +579,7 @@
   storage:
     back:
     - RubberStampPsychologist
+  groupBy: "stamps" #Damnation grouping
 
 - type: loadout
   id: ContractorRubberStampDoctor
@@ -558,6 +587,7 @@
   storage:
     back:
     - RubberStampDoctor
+  groupBy: "stamps" #Damnation grouping
 
 - type: loadout
   id: ContractorRubberStampEngineer
@@ -565,3 +595,4 @@
   storage:
     back:
     - RubberStampEngineer
+  groupBy: "stamps" #Damnation grouping

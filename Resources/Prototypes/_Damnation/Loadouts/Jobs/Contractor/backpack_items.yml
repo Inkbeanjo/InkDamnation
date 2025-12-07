@@ -1,0 +1,13 @@
+- type: loadout
+  id: ContractorASFloodlightMagenta #Colorblindness-friendly lamps- need to adjust hue of blue light to cyan, + up brightness for better colorblind visibility.
+  price: 500
+  storage:
+    back:
+    - ASFloodlightMagenta
+
+- type: loadout
+  id: ContractorASFloodlightBlue
+  price: 500
+  storage:
+    back:
+    - ASFloodlightBlue

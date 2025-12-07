@@ -644,7 +644,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.1
   - type: StaticPrice
-    price: 500
+    price: 50 #Damnation; price of 500 means 5k spesos in game, 50 is 500/in line with basically all other empty belts.
 
 - type: entity
   parent: [NFClothingSBeltStorageHolsterMedkitBase, ContentsExplosionResistanceBase, BaseC1Contraband]

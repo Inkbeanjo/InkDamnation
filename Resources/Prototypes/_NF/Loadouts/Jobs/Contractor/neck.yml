@@ -7,6 +7,7 @@
   price: 500
   equipment:
     neck: ClothingNeckScarfStripedBlack
+  groupBy: "scarf" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingNeckScarfStripedBlue
@@ -16,6 +17,7 @@
   price: 500
   equipment:
     neck: ClothingNeckScarfStripedBlue
+  groupBy: "scarf" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingNeckScarfStripedBrown
@@ -25,6 +27,7 @@
   price: 500
   equipment:
     neck: ClothingNeckScarfStripedBrown
+  groupBy: "scarf" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingNeckScarfStripedGreen
@@ -34,6 +37,7 @@
   price: 500
   equipment:
     neck: ClothingNeckScarfStripedGreen
+  groupBy: "scarf" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingNeckTieBH
@@ -97,6 +101,7 @@
   price: 500
   equipment:
     neck: ClothingNeckBellCollar
+  groupBy: "collar" #Damnation grouping
 
 - type: loadout
   id: ContractorCDDogtags
@@ -143,6 +148,7 @@
   price: 1000
   equipment:
     neck: ClothingNeckCloakCap
+  groupBy: "profession cloak" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingNeckCloakMiner
@@ -152,6 +158,7 @@
   price: 1000
   equipment:
     neck: ClothingNeckCloakMiner
+  groupBy: "profession cloak" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingNeckCloakMoth
@@ -367,6 +374,7 @@
   price: 1000
   equipment:
     neck: ClothingNeckMantleCap
+  groupBy: "profession mantle" #Damnation grouping
 
 #T3 for lols
 - type: loadout
@@ -377,6 +385,7 @@
   price: 2500
   equipment:
     neck: ClothingNeckCloakCapFormal
+  groupBy: "profession cloak" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingNeckCloakQm
@@ -386,6 +395,7 @@
   price: 2500
   equipment:
     neck: ClothingNeckCloakQm
+  groupBy: "profession cloak" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingNeckMantleQM
@@ -395,6 +405,17 @@
   price: 2500
   equipment:
     neck: ClothingNeckMantleQM
+  groupBy: "profession mantle" #Damnation grouping
+
+- type: loadout
+  id: ContractorClothingNeckCloakHos
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT3
+  price: 2500
+  equipment:
+    neck: ClothingNeckCloakHos
+  groupBy: "profession cloak" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingCloakCmo
@@ -404,6 +425,7 @@
   price: 2500
   equipment:
     neck: ClothingCloakCmo
+  groupBy: "profession cloak" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingNeckMantleCMO
@@ -413,6 +435,7 @@
   price: 2500
   equipment:
     neck: ClothingNeckMantleCMO
+  groupBy: "profession mantle" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingNeckCloakRd
@@ -422,6 +445,7 @@
   price: 2500
   equipment:
     neck: ClothingNeckCloakRd
+  groupBy: "profession cloak" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingNeckMantleRD
@@ -431,6 +455,7 @@
   price: 2500
   equipment:
     neck: ClothingNeckMantleRD
+  groupBy: "profession mantle" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingNeckCloakCe
@@ -440,6 +465,7 @@
   price: 2500
   equipment:
     neck: ClothingNeckCloakCe
+  groupBy: "profession cloak" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingNeckMantleCE
@@ -449,6 +475,7 @@
   price: 2500
   equipment:
     neck: ClothingNeckMantleCE
+  groupBy: "profession mantle" #Damnation grouping
 
 - type: loadout
   id: ContractorClothingNeckCloakVoid

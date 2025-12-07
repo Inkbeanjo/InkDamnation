@@ -1,0 +1,10 @@
+- type: loadout
+  id: ContractorClownRecorder
+  name: clown recorder
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 500
+  inhand:
+  - ClownRecorder
+  
