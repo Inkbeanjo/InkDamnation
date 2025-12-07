@@ -5,9 +5,9 @@
   description: A comfy-cozy sweater combo. Great for those with poor circulation.
   components:
   - type: Sprite
-    sprite: _Damnation/Clothing/Uniforms/Jumpskirt/whiteturtleskirt.rsi
+    sprite: _DEN/Clothing/Uniforms/Jumpskirt/whiteturtleskirt.rsi
   - type: Clothing
-    sprite: _Damnation/Clothing/Uniforms/Jumpskirt/whiteturtleskirt.rsi
+    sprite: _DEN/Clothing/Uniforms/Jumpskirt/whiteturtleskirt.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -16,6 +16,6 @@
   description: A short, plain dress.
   components:
   - type: Sprite
-    sprite: _Damnation/Clothing/Uniforms/Jumpskirt/short_dress.rsi
+    sprite: _DEN/Clothing/Uniforms/Jumpskirt/short_dress.rsi
   - type: Clothing
-    sprite: _Damnation/Clothing/Uniforms/Jumpskirt/short_dress.rsi
+    sprite: _DEN/Clothing/Uniforms/Jumpskirt/short_dress.rsi

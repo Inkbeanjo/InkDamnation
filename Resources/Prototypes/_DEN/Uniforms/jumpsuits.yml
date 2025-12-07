@@ -5,9 +5,9 @@
   description: A tight fitted singlet made of hydrophobic microweave. For pool days, or paired with an oversized jacket.
   components:
   - type: Sprite
-    sprite: _Damnation/Clothing/Uniforms/Jumpsuit/swimsuit.rsi
+    sprite: _DEN/Clothing/Uniforms/Jumpsuit/swimsuit.rsi
   - type: Clothing
-    sprite: _Damnation/Clothing/Uniforms/Jumpsuit/swimsuit.rsi
+    sprite: _DEN/Clothing/Uniforms/Jumpsuit/swimsuit.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -16,6 +16,6 @@
   description: For the ones who've done horrible things and looked cute doing them.
   components:
   - type: Sprite
-    sprite: _Damnation/Clothing/Uniforms/Jumpsuit/militarybrat.rsi
+    sprite: _DEN/Clothing/Uniforms/Jumpsuit/militarybrat.rsi
   - type: Clothing
-    sprite: _Damnation/Clothing/Uniforms/Jumpsuit/militarybrat.rsi
+    sprite: _DEN/Clothing/Uniforms/Jumpsuit/militarybrat.rsi
