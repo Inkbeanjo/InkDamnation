@@ -652,7 +652,8 @@
     rarePrototypes:
     - VendingMachineSyndieContraband
     # - VendingMachineSyndieDrobe # A bit less Syndicate loot
-    - VendingMachineRobotics
+    #- VendingMachineRobotics #Damnation, shifting for rare% fun
+    - VendingMachineArcadia #Damnation
     rareChance: 0.02
 
 # Other

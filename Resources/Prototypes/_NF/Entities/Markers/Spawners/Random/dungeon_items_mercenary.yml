@@ -557,10 +557,12 @@
     offset: 0.0
     rarePrototypes:
     - VendingMachineArcadia
+    - VendingMachineMagivend #Damnation
+    - VendingMachineSyndieDrobe #Damnation
     #- VendingMachineSec
     #- VendingMachineSecDrobe
-    - SpawnDungeonMachineFrame
-    rareChance: 0.01
+    #- SpawnDungeonMachineFrame #Damnation, clutter for a rare% is kinda mean/wasted potential for fun shifts.
+    rareChance: 0.02 #Damnation, 2 > 1; raising to upstream merge's average
 
 - type: entity
   name: random machine techfab

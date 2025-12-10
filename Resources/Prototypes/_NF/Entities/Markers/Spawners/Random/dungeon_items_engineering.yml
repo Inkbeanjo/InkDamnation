@@ -422,8 +422,9 @@
     rarePrototypes:
     - VendingMachineSyndieContraband
 #    - VendingMachineSyndieDrobe # A bit less Syndicate loot
-    - VendingMachineRobotics
-    rareChance: 0.01
+    #- VendingMachineRobotics #Damnation, shifting for rare%
+    - VendingMachineMagivend #Damnation
+    rareChance: 0.02 #Damnation, 2 > 1; raised to upstream port average
 
 # Other
 - type: entity

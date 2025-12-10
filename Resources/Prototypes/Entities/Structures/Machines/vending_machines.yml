@@ -1975,7 +1975,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine] # Frontier
+  parent: VendingMachine #Damnation, wrenchable
   id: VendingMachineSyndieDrobe
   name: SyndieDrobe
   description: Wardrobe machine encoded by the syndicate, contains elite outfits for various operations.
