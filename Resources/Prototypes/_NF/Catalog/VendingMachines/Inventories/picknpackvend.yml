@@ -37,3 +37,5 @@
     NFAmmunitionBoxRifle30: 4294967295
     NFAmmunitionBoxShellShotgunBuckshot: 4294967295
     NFAmmunitionBoxShellShotgunBeanbag: 4294967295
+  emaggedInventory:
+    NFMagazineShotgunDrum: 2 #Damnation

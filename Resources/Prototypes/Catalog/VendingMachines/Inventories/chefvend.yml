@@ -38,3 +38,5 @@
     FoodBoxDonkpocket: 1 # Frontier
     FoodFrozenSandwich: 2 # Frontier
     FoodFrozenSandwichStrawberry: 2 # Frontier
+  emaggedInventory:
+    CombatBakeryKit: 1 #Damnation

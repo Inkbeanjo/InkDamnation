@@ -17,3 +17,6 @@
     ClothingShoesBootsWinterAtmos: 2 #Delta V: Add departmental winter boots
   contrabandInventory:
     ToyFigurineAtmosTech: 1
+  emaggedInventory:
+    FireAxeFlaming: 1 #Damnation
+    PlasmaTankFilled: 2 #Damnation

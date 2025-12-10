@@ -86,3 +86,5 @@
       - id: SyndicateMicrowaveMachineCircuitboard
       - id: PaperWrittenCombatBakeryKit
       - id: SyndicateElectricRangeMachineCircuitboard # Frontier
+  - type: StaticPrice # Damnation
+    price: 150 # Damnation
