@@ -129,3 +129,5 @@
   - type: Tag
     tags:
     - Banana
+  - type: StaticPrice # Damnation
+    price: 100 # Damnation

@@ -127,3 +127,6 @@
     state: cash_100000
   - type: Stack
     count: 200000
+  - type: StaticPrice # Damnation
+    price: 100 # Damnation
+    

@@ -78,6 +78,8 @@
       - state: inhand-right-mag
       - state: inhand-right-stripe
         color: "#333333"
+  - type: StaticPrice # Damnation
+    price: 175 # Damnation
 
 - type: entity
   id: NFMagazineShotgunDrumBeanbag

@@ -92,6 +92,8 @@
         Blunt: 8
     bluntStaminaDamageFactor: 0.0 # so blunt doesn't deal stamina damage at all
     mustBeEquippedToUse: true
+  - type: StaticPrice # Damnation
+    price: 150 # Damnation
 
 - type: entity
   parent: ClothingHandsBase # remove BaseCommandContraband

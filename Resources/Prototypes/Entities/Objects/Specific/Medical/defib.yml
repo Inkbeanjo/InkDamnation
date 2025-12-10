@@ -132,3 +132,5 @@
       types:
         Blunt: 8
         Shock: 16
+  - type: StaticPrice # Damnation
+    price: 200 # Damnation

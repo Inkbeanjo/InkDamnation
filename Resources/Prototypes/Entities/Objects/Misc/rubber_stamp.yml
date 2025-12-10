@@ -227,7 +227,7 @@
   - type: Sprite
     state: stamp-syndicate
   - type: StaticPrice
-    price: 1000
+    price: 100 #Damnation, 100 > 1000
 
 - type: entity
   name: warden's rubber stamp

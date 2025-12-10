@@ -71,3 +71,5 @@
     slots:
     - back
     - suitStorage
+  - type: StaticPrice # Damnation
+    price: 275 # Damnation
