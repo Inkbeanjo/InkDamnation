@@ -16,4 +16,7 @@
 #    ClothingHeadsetService: 2 # Frontier
   contrabandInventory:
     ToyFigurineLibrarian: 1
-
+  emaggedInventory: 
+    CyberPen: 1 #Damnation
+    RubberStampSyndicate: 1 #Damnation
+    SyndicateBusinessCard: 3 #Damnation
