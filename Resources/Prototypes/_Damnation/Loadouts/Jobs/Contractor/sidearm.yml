@@ -1,0 +1,34 @@
+# Sidearm loadouts for Contractor
+
+- type: loadoutGroup
+  id: ContractorSidearm
+  name: loadout-group-contractor-sidearm
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ContractorSidearmMK58
+  - ContractorSidearmFitz
+  - ContractorSidearmDisabler
+
+# Loadouts
+
+- type: loadout
+  id: ContractorSidearmMK58
+  price: 1750
+  storage:
+    back:
+    - NFWeaponPistolMk58
+
+- type: loadout
+  id: ContractorSidearmFitz
+  price: 2250
+  storage:
+    back:
+    - NFWeaponRevolverFitz
+
+- type: loadout
+  id: ContractorSidearmDisabler
+  price: 1750
+  storage:
+    back:
+    - NFWeaponEnergyPistolDisabler

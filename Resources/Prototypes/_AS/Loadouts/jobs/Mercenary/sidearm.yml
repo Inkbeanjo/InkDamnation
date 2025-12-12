@@ -4,46 +4,48 @@
   id: MercenarySidearm
   name: loadout-group-mercenary-sidearm
   minLimit: 0
-  maxLimit: 2
+  maxLimit: 1 #Damnation, reduced 1 > 2; merc role has access to contractor sidearm list
   loadouts:
-  - MercenarySidearmMK58
+  # Damnation; moved general/easy-access firearms to contractor loadout for variety, left relatively heavier hitters to the merc loadout
+
+  #- MercenarySidearmMK58 
   - MercenarySidearmPollock
-  - MercenarySidearmFitz
+  #- MercenarySidearmFitz
   - MercenarySidearmLaserPistol
-  - MercenarySidearmDisabler
+  #- MercenarySidearmDisabler
 
 # Loadouts
-- type: loadout
-  id: MercenarySidearmMK58
-  price: 3800
-  storage:
-    back:
-    - NFWeaponPistolMk58
+#- type: loadout
+  #id: MercenarySidearmMK58
+  #price: 3800
+  #storage:
+    #back:
+    #- NFWeaponPistolMk58
 
 - type: loadout
   id: MercenarySidearmPollock
-  price: 7500
+  price: 2500 # Damnation
   storage:
     back:
     - NFWeaponPistolPollock
 
-- type: loadout
-  id: MercenarySidearmFitz
-  price: 3600
-  storage:
-    back:
-    - NFWeaponRevolverFitz
+#- type: loadout
+  #id: MercenarySidearmFitz
+  #price: 3600
+  #storage:
+    #back:
+    #- NFWeaponRevolverFitz
 
 - type: loadout
   id: MercenarySidearmLaserPistol
-  price: 4500
+  price: 2500 # Damnation
   storage:
     back:
     - NFWeaponEnergyPistolLaser
 
-- type: loadout
-  id: MercenarySidearmDisabler
-  price: 3800
-  storage:
-    back:
-    - NFWeaponEnergyPistolDisabler
+#- type: loadout
+  #id: MercenarySidearmDisabler
+  #price: 3800
+  #storage:
+    #back:
+    #- NFWeaponEnergyPistolDisabler

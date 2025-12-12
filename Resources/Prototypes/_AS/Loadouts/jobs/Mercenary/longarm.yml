@@ -6,32 +6,58 @@
   minLimit: 0
   maxLimit: 1
   loadouts:
-  - MercenaryLongarmNovaliteC1
-  - MercenaryLongarmGestio
-  - MercenaryLongarmRepeater
-  - MercenaryLongarmKammerer
+  # Damnation; C1 arms moved to contractor loadout
+  #- MercenaryLongarmNovaliteC1 
+  #- MercenaryLongarmGestio
+  #- MercenaryLongarmRepeater
+  #- MercenaryLongarmKammerer
+
+  # Damnation additions
+  - MercenaryLongarmDrozd 
+  - MercenaryLongarmFalchion
+  - MercenaryLongarmLecter
 
 # Loadouts
-- type: loadout
-  id: MercenaryLongarmNovaliteC1
-  price: 7500
-  inhand:
-  - NFWeaponRifleAssaultNovaliteC1
 
-- type: loadout
-  id: MercenaryLongarmGestio
-  price: 7500
-  inhand:
-  - NFWeaponRifleAssaultGestio
+# Damnation; See above
+#- type: loadout
+  #id: MercenaryLongarmNovaliteC1
+  #price: 7500
+  #inhand:
+  #- NFWeaponRifleAssaultNovaliteC1
 
-- type: loadout
-  id: MercenaryLongarmRepeater
-  price: 7200
+#- type: loadout
+  #id: MercenaryLongarmGestio
+  #price: 7500
+  #inhand:
+  #- NFWeaponRifleAssaultGestio
+
+#- type: loadout
+  #id: MercenaryLongarmRepeater
+  #price: 7200
+  #inhand:
+  #- NFWeaponRifleRepeater
+
+- type: loadout # Damnation; merc coins ideally sell at 1k apiece @ proper cargo, following guns cost 6 coins in the vend- 6k spesos, plus convenience fee for roundstart.
+  id: MercenaryLongarmDrozd
+  price: 7000
   inhand:
-  - NFWeaponRifleRepeater
+  - ASWeaponSubMachineGunSurpDrozd
 
 - type: loadout
   id: MercenaryLongarmKammerer
-  price: 6000
+  price: 3500
   inhand:
   - NFWeaponShotgunKammerer
+
+- type: loadout # Damnation
+  id: MercenaryLongarmFalchion
+  price: 9200
+  inhand:
+  - ASWeaponShotgunFalchion
+
+- type: loadout # Damnation
+  id: MercenaryLongarmLecter
+  price: 9200
+  inhand:
+  - ASWeaponRifleAssaultSurpLecter

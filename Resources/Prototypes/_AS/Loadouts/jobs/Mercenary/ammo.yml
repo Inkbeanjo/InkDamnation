@@ -39,19 +39,21 @@
     back:
     - NFAmmunitionBoxPistol35Rubber
 
-- type: loadout
-  id: MercenaryAmmoPistol40
-  price: 300
-  storage:
-    back:
-    - ASAmmunitionBoxPistol40
+# Damnation; below ammo doesn't exist on fork yet, yet-to-be added from upstream pr or merge
 
-- type: loadout
-  id: MercenaryAmmoPistol40Rubber
-  price: 300
-  storage:
-    back:
-    - ASAmmunitionBoxPistol40Rubber
+#- type: loadout
+  #id: MercenaryAmmoPistol40
+  #price: 300
+  #storage:
+    #back:
+    #- ASAmmunitionBoxPistol40
+
+#- type: loadout
+  #id: MercenaryAmmoPistol40Rubber
+  #price: 300
+  #storage:
+    #back:
+    #- ASAmmunitionBoxPistol40Rubber
 
 - type: loadout
   id: MercenaryAmmoPistol45
@@ -123,19 +125,21 @@
     back:
     - NFMagazineHighCapacityPistol35
 
-- type: loadout
-  id: MercenaryAmmoMagPistol40
-  price: 300
-  storage:
-    back:
-    - ASMagazinePistol40
+# Damnation; below ammo doesn't exist on fork yet, yet-to-be added from upstream pr or merge
 
-- type: loadout
-  id: MercenaryAmmoMagPistol40HighCap
-  price: 2000
-  storage:
-    back:
-    - ASMagazineHighCapacityPistol40
+#- type: loadout
+  #id: MercenaryAmmoMagPistol40
+  #price: 300
+  #storage:
+    #back:
+    #- ASMagazinePistol40
+
+#- type: loadout
+  #id: MercenaryAmmoMagPistol40HighCap
+  #price: 2000
+  #storage:
+    #back:
+    #- ASMagazineHighCapacityPistol40
 
 - type: loadout
   id: MercenaryAmmoSpeedLoaderPistol45
