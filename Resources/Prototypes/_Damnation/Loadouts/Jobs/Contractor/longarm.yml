@@ -26,7 +26,7 @@
 
 - type: loadout
   id: ContractorLongarmRepeater
-  price: 1500
+  price: 3500
   inhand:
   - NFWeaponRifleRepeater
 
@@ -34,4 +34,4 @@
   id: ContractorLongarmDoubleBarreled
   price: 3500
   inhand:
-  - WeaponShotgunDoubleBarreled
+  - NFWeaponShotgunDoubleBarreled

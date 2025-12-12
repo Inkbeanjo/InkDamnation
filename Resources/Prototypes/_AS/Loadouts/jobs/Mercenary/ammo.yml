@@ -6,8 +6,8 @@
   loadouts:
   - MercenaryAmmoPistol35
   - MercenaryAmmoPistol35Rubber
-  - MercenaryAmmoPistol40
-  - MercenaryAmmoPistol40Rubber
+  #- MercenaryAmmoPistol40
+  #- MercenaryAmmoPistol40Rubber
   - MercenaryAmmoPistol45
   - MercenaryAmmoPistol45Rubber
   - MercenaryAmmoShotgun12Buckshot
@@ -18,8 +18,8 @@
   - MercenaryAmmoRifle30Rubber
   - MercenaryAmmoMagPistol35
   - MercenaryAmmoMagPistol35HighCap
-  - MercenaryAmmoMagPistol40
-  - MercenaryAmmoMagPistol40HighCap
+  #- MercenaryAmmoMagPistol40
+  #- MercenaryAmmoMagPistol40HighCap
   - MercenaryAmmoSpeedLoaderPistol45
   - MercenaryAmmoClipRifle20
   - MercenaryAmmoMagRifle30Short

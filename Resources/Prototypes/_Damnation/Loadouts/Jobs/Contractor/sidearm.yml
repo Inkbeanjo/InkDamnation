@@ -14,21 +14,21 @@
 
 - type: loadout
   id: ContractorSidearmMK58
-  price: 1750
+  price: 2000
   storage:
     back:
     - NFWeaponPistolMk58
 
 - type: loadout
   id: ContractorSidearmFitz
-  price: 2250
+  price: 2400
   storage:
     back:
     - NFWeaponRevolverFitz
 
 - type: loadout
   id: ContractorSidearmDisabler
-  price: 1750
+  price: 2500
   storage:
     back:
     - NFWeaponEnergyPistolDisabler
