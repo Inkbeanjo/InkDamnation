@@ -21,11 +21,61 @@
   name:  uplink-mercenary-smgwt-name
   description: uplink-mercenary-smgwt-desc
   productEntity: ASWeaponSubMachineGunSurpWt550
-  icon: { sprite: _AS/Objects/Weapons/Guns/Rifles/surpwt550.rsi, state: icon }
+  icon: { sprite: _AS/Objects/Weapons/Guns/SMGs/surpwt550.rsi, state: icon }
   cost:
     MercCoin: 6
   categories:
   - UplinkMercenaryWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+      
+- type: listing
+  id: UplinkMercenaryWeaponSurpAtreides
+  name:  uplink-mercenary-smgwt-name
+  description: uplink-mercenary-smgwt-desc
+  productEntity: ASWeaponSubMachineGunSurpAtreides
+  icon: { sprite: _AS/Objects/Weapons/Guns/SMGs/surpatreides.rsi, state: icon }
+  cost:
+    MercCoin: 12
+  categories:
+  - UplinkMercenaryWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+      
+# region Ammo
+
+- type: listing
+  id: UplinkMercenary35TopMountSMGmags
+  name:  uplink-mercenary-35auto-wtmags-name
+  description: uplink-mercenary-35auto-wtmags-desc
+  productEntity: WeaponCaseShortSMG35LethalTopMounted
+  #icon: { sprite: , state: icon }
+  cost:
+    MercCoin: 5
+  categories:
+  - UplinkMercenaryAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenary35TopMountSMGmagsOverpressure
+  name:  uplink-mercenary-35-op-auto-wtmags-name
+  description: uplink-mercenary-35-op-auto-wtmags-desc
+  productEntity: WeaponCaseShortSMG35LethalTopMountedOverpressure
+  #icon: { sprite: , state: icon }
+  cost:
+    MercCoin: 6
+  categories:
+  - UplinkMercenaryAmmo
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:

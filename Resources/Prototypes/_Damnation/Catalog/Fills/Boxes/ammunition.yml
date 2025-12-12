@@ -1,0 +1,21 @@
+- type: entity
+  name: box of SMG .35 auto top-mounted magazines
+  parent: WeaponCaseShortAmmo
+  id: WeaponCaseShortSMG35LethalTopMounted
+  description: A box full of top-mounted SMG .35 auto magazines.
+  components:
+  - type: StorageFill
+    contents:
+    - id: NFMagazineSubMachineGunTopMounted35
+      amount: 4
+
+- type: entity
+  name: box of SMG .35 auto top-mounted overpressure magazines
+  parent: WeaponCaseShortAmmo
+  id: WeaponCaseShortSMG35LethalTopMountedOverpressure
+  description: A box full of overpressure top-mounted SMG .35 auto magazines.
+  components:
+  - type: StorageFill
+    contents:
+    - id: NFMagazineSubMachineGunTopMounted35Overpressure
+      amount: 4

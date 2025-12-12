@@ -20,3 +20,11 @@ uplink-mercenary-riflesm-desc = An iconic weapon of war. Previously a firearm of
 uplink-mercenary-smgwt-name = Surplus WT-550
 uplink-mercenary-smgwt-desc = An excellent SMG. On the receiver is a label that says 'Certified Surplus.'
 
+uplink-mercenary-smgatr-name = Surplus Atreides
+uplink-mercenary-smgatr-desc = A submachinegun previously used by Syndicate agents. On the receiver is a label that says 'Certified Surplus.'
+
+uplink-mercenary-35auto-wtmags-name = .35 Auto Top-Mounted SMG mags
+uplink-mercenary-35auto-wtmags-desc = A quartet of top-mounted SMG magazines loaded up with lethals, go get 'em tiger.
+
+uplink-mercenary-35-op-auto-wtmags-name = .35 Overpressure Auto Top-Mounted SMG mags
+uplink-mercenary-35-op-auto-wtmags-desc = A quartet of top-mounted SMG magazines loaded up with overpressure rounds.
