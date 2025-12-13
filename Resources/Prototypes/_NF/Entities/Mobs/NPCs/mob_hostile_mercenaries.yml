@@ -143,7 +143,7 @@
       color: "#a9b6bd"
       shader: unshaded
   - type: BasicEntityAmmoProvider
-    proto: NFCartridgePistol35Overpressure
+    proto: NFCartridgePistol35 #Damnation; Overpressure removed
     capacity: 4
     count: 4
   - type: Gun
@@ -189,7 +189,7 @@
       color: "#a9b6bd"
       shader: unshaded
   - type: BasicEntityAmmoProvider
-    proto: NFCartridgeRifle20Overpressure
+    proto: NFCartridgeRifle20 #Damnation; Overpressure removed
     capacity: 10
     count: 10
   - type: Gun
@@ -286,7 +286,7 @@
       color: "#a9b6bd"
       shader: unshaded
   - type: BasicEntityAmmoProvider
-    proto: NFCartridgePistol35Overpressure
+    proto: NFCartridgePistol35 #Damnation; Overpressure removed
     capacity: 6
     count: 6
   - type: Gun
@@ -455,7 +455,7 @@
       color: "#a9b6bd"
       shader: unshaded
   - type: BasicEntityAmmoProvider
-    proto: NFCartridgeRifle25Overpressure
+    proto: NFCartridgeRifle25 #Damnation; Overpressure removed
     capacity: 2
     count: 2
   - type: RechargeBasicEntityAmmo

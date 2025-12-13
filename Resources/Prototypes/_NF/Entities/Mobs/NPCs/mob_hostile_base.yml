@@ -378,13 +378,14 @@
        task: SimpleHostileCompound
     blackboard:
       NavClimb: !type:Bool
-        false
+        true # Damnation, prevention for mob pathing exploits.
       NavInteract: !type:Bool
         true
       NavPry: !type:Bool
         true
       NavSmash: !type:Bool # They use this option too much for my liking, but I'll keep it here as an option
         true
+  - type: Climbing # Damnation, prevention for mob pathing exploits.
 
 - type: entity
   id: MobHumanoidHostileAISimpleRanged
@@ -395,13 +396,14 @@
        task: SimpleRangedHostileCompound
     blackboard:
       NavClimb: !type:Bool
-        false
+        true # Damnation, prevention for mob pathing exploits.
       NavInteract: !type:Bool
         true
       NavPry: !type:Bool
         true
       NavSmash: !type:Bool # They use this option too much for my liking, but I'll keep it here as an option
         true
+  - type: Climbing # Damnation, prevention for mob pathing exploits
 
 - type: entity
   id: MobHumanoidHostileAIComplex
@@ -412,13 +414,14 @@
        task: SimpleHumanoidHostileCompound
     blackboard:
       NavClimb: !type:Bool
-        false
+        true # Damnation, prevention for mob pathing exploits.
       NavInteract: !type:Bool
         true
       NavPry: !type:Bool
         true
 #      NavSmash: !type:Bool # They use this option too much for my liking, but I'll keep it here as an option
 #        true
+  - type: Climbing # Damnation, prevention for mob pathing exploits
 #endregion
 
 #region NPC types
