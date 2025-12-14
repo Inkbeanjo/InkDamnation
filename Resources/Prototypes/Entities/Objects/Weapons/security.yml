@@ -187,7 +187,7 @@
 
 - type: entity
   name: portable flasher
-  parent: [BaseMachine, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: [DamnedBaseMachine, BaseC2ContrabandUnredeemable] # Damnation; base machine changed, health lowered to discourage/prevent AI cheese
   id: PortableFlasher
   description: An ultrabright flashbulb with a proximity trigger, useful for making an area security-only.
   components:
@@ -215,9 +215,9 @@
             !type:PhysShapeAabb
             bounds: "-0.15,-0.3,0.15,0.3"
           mask:
-          - MachineMask
+          - TableMask # Damnation, table > machine, anti-cheese
           layer:
-          - MachineLayer
+          - TableLayer # Damnation, table > machine, anti-cheese
           density: 380
     - type: Appearance
     - type: AnimationPlayer

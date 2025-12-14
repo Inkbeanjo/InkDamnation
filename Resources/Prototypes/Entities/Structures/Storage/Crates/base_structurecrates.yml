@@ -37,7 +37,7 @@
         mask:
         - CrateMask #this is so they can go under plastic flaps
         layer:
-        - MachineLayer
+        - TableLayer # Damnation, table > machine; testing for mob pathing
   - type: EntityStorage
   - type: PlaceableSurface
     isPlaceable: false # defaults to closed.
