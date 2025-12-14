@@ -115,7 +115,7 @@
     stateDoorClosed: generic_door
   - type: StaticPrice
     price: 50 # Frontier: 75<50 - TODO: material value rework
-  - type: Climbable # Damnation, preventing mob pathing exploits
+  #- type: Climbable # Damnation, preventing mob pathing exploits
 
 # steel closet base (that can be constructed/deconstructed)
 - type: entity

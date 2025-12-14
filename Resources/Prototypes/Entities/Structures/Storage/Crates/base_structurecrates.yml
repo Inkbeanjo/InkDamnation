@@ -97,7 +97,7 @@
       - entity_storage
   - type: RequireProjectileTarget
   - type: NFCrate # Frontier
-  - type: Climbable # Damnation
+  #- type: Climbable # Damnation
 
 - type: entity
   parent: CrateGeneric

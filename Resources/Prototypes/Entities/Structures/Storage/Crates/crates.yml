@@ -16,7 +16,7 @@
     group: CrateSteel
   - type: RadiationBlockingContainer
     resistance: 2.5
-  - type: Climbable # Damnation, preventing mob pathing exploits
+  #- type: Climbable # Damnation, preventing mob pathing exploits
 
 - type: entity
   parent: CrateBaseWeldable
