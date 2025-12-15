@@ -37,3 +37,7 @@
           components:
           - HitscanBatteryAmmoProvider
           - ProjectileBatteryAmmoProvider
+        blacklist: # Damnation, Frontier pull
+          components: # Damnation, Frontier pull
+          - WizardStaffRechargeable # Damnation, Frontier pull
+          - BloodCultStaffRechargeable # Damnation, Frontier pull
