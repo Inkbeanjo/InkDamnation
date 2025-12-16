@@ -2201,14 +2201,14 @@
   categories:
   - UplinkExplosives #Damnation, fixed spacing
 #   - UplinkJob
-#   conditions:
+  conditions:
 #   - !type:BuyerJobCondition
 #     whitelist:
 #     - Janitor
-#   - !type:BuyerWhitelistCondition
-#     blacklist:
-#       components:
-#       - SurplusBundle
+  - !type:BuyerWhitelistCondition
+     blacklist:
+       components:
+       - SurplusBundle
 
 # - type: listing # Frontier: no ghost role spam please
 #   id: UplinkSyndicateSpongeBox
